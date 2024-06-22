@@ -33,3 +33,29 @@ This command generates an APK for Android devices. For iOS, use `flutter build i
 ### App Functionality
 
 The app allows users to store and categorize their generative AI chats. Users can create folders for different categories and add their chats to these folders. The interface is designed to be simple and user-friendly, making it easy for anyone to start organizing their AI-generated content.
+
+## Using the Devcontainer
+
+To streamline the development process and ensure a consistent environment for all contributors, this project supports development within a Devcontainer using GitHub Codespaces or VSCode with the Remote-Containers extension.
+
+### Getting Started with the Devcontainer
+
+1. If using VSCode, ensure you have the Remote-Containers extension installed.
+2. Open the command palette (Ctrl+Shift+P) and select "Remote-Containers: Open Folder in Container...".
+3. Choose the project folder to start the development environment.
+
+For GitHub Codespaces:
+1. Navigate to the GitHub repository page.
+2. Click the "Code" button and select "Open with Codespaces".
+3. Follow the prompts to create a new codespace.
+
+### Testing the Configuration Locally
+
+To test the Devcontainer configuration locally in VSCode:
+1. Open the project in VSCode.
+2. Open the command palette (Ctrl+Shift+P) and select "Remote-Containers: Rebuild and Reopen in Container".
+3. Test the development environment by running the application or executing other tasks.
+
+### Limitations
+
+While the Devcontainer aims to provide a comprehensive development environment, there may be slight differences compared to a local setup. If you encounter any issues or limitations, please report them in the project's issue tracker.
