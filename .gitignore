@@ -25,3 +25,47 @@ doc/api/
 
 .flutter-plugins
 .flutter-plugins-dependencies
+
+# Flutter & Dart specific rules
+# General
+**/.DS_Store
+**/Thumbs.db
+
+# Dart related
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+/build/
+
+# Flutter related
+**/ios/Flutter/.last_build_id
+**/android/.gradle
+**/android/.idea
+**/.flutter-plugins-dependencies
+**/.flutter-plugins
+**/Flutter/ephemeral/
+.flutter-plugins
+.flutter-plugins-dependencies
+ios/Pods/
+ios/Flutter/Generated.xcconfig
+ios/Flutter/flutter_export_environment.sh
+ios/Flutter/App.framework
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/.symlinks/
+ios/Runner.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings
+android/local.properties
+android/.idea/workspace.xml
+android/.idea/libraries
+android/.idea/modules.xml
+android/.idea/gradle.xml
+android/.idea/caches
+android/.idea/navEditor.xml
+android/.idea/assetWizardSettings.xml
+android/.gradle
+android/captures/
+android/gradlew
+android/gradlew.bat
+android/key.properties
+android/app/src/main/assets/shaders
